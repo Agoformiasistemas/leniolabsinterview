@@ -1,0 +1,14 @@
+{
+  "name": "cypress-tutorials",
+  "version": "1.0.0",
+  "description": "A project to review cypress",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Agostina Formia",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^13.5.0"
+  }
+}
