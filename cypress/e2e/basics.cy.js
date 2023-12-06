@@ -18,9 +18,15 @@ describe("Login feature page", () => {
   //beforeeach will run 10 times
   //after will run 1 time
   //aftereach 10
-  it("Example", () => {
-    cy.visit("https://demo.seleniumeasy.com/");
-    cy.get("div.container").eq(0).click();
+  it("Example test case for Leniolabs interview", () => {
+    cy.visit("https://demo.applitools.com/");
+    cy.get("#username").type("test");
+    cy.get("#password").type("test");
+    cy.get("#log-in").click();
+    cy.get(".logged-user-name").should(
+      "have.text",
+      "\n                Jack Gomez\n              "
+    );
   });
 
   // it("should visit the login page correctly", function () {
